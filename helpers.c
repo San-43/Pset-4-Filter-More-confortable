@@ -181,7 +181,7 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
             green = 0;
             red = 0;
 
-            for (int l = i - 1, n = 0; l <= i + 1; l++, n++)//Creating the 3x3 array around the pixel and iterating over gx and
+            for (int l = i - 1, n = 0; l <= i + 1; l++, n++)//Creating the 3x3 array around the pixel and iterating over gx and gy
             {
                 if (l < 0)
                 {
